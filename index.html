@@ -1,0 +1,576 @@
+
+<script src="script.js"></script>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">CHRISTIAN MUÑOZ</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="./img/christian.jpg" alt="imagen">
+            </div>
+            <h1>Christian Muñoz </h1>
+            <h2>Full Stack Developer</h2>
+            <div class="redes">
+                <a  href="https://github.com/Chris-tAt"><i class="fa-brands fa-github"></i></a> 
+                <a href="https://www.linkedin.com/in/christian-mu%C3%B1oz-493218275"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Christian</span> <br>🚀Soy un programador Full Stack 🚀<br>
+                Me he formado como programador con :<br> 
+                - Entrenamiento en programación usando JavaScript, React, node.js, ...<br>
+                -Soy Henry 🚀 Bootcamp - Full Stack <br>
+                - Carrera profesional de Programacion y Analisis de Datos<br><br>
+                
+                💡 Manejo diferentes tecnologías como:<br> 
+                🚀 Frontend: React, Redux, javaScript, HTML, librerías de estilos(Bootstrap, Tailwind, Material UI), otras librerías, y mas.<br>
+                🌐 Backend: Node.js, Express, Sequelize, PostgreSQL, ...<br>
+                🎨 Diseño: Figma, Adobe Photoshop, Adobe Premier Pro, y más.<br><br>
+                He trabajado en diversos proyectos tanto personales como colaborativos. Actualmente estoy estudiando Programación y Análisis de Datos y continúo trabajando en diversos proyectos. <br><br>
+                
+                Estoy aprendiendo nuevas tecnologías como: TypeScript, Mongo y AWS✨<br>
+                </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de Nacimiento</strong>
+                            13-Abril-1992
+                        </li>
+                        <li>
+                            <strong>Teléfono | WhatsApp</strong>
+                        (+507) 6916-0682
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                         christati1205@gmail.com
+                        </li>
+                       
+                        <li>
+                            <strong>Dirección</strong>
+                         Panamá - Ciudad de Panamá
+                        </li>
+                       
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Developer Full Stack</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <a href="https://drive.google.com/file/d/1wGlqQXL7vTDXiJBMLVD84YLIHYXHaA-E/view?usp=sharing">
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+
+                    <div class="skill">
+                        <span>React.js</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Node.js</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>JacaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+                    <div class="skill">
+                        <span>Express</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Sequelize</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PostgreSQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML / css</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Tailwind</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Resolución de Problemas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Aprendizaje continuo </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <span>Autoorganización </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- SECCION CURRICULUM -->
+   <section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educación</h3>
+                <div class="item izq">
+                    <h4>Desarrollador Full Stack</h4>
+                   
+                    <span class="casa">Bootcamp Intensivo Soy Henry 🚀</span>
+                    <span class="fecha">junio,2023 - Noviembre,2023</span>
+                    <p> 
+                        Cursé +800 horas de programación basado en prácticas y proyectos reales, aprendi las habilidades más demandadas del mercado</p>
+                   <p>Esta Carrera de Desarrollo Full Stack estuvo orienta a herramientas de programación como JavaScript, CSS, Node JS, React, Redux, Express, Sequelize junto con otras tecnologías que completan mi desarrollo profesional del front🚀 y back-end🌐.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Carrera profesional de Programacion y Analisis de Datos</h4>
+                    <span class="casa">UIP (Universidad Interamericana de Panamá)</span>
+                    <span class="fecha">Noviembre,2022 - Actualidad</span>
+                    <p>Estoy cursando el tercer cuatrimestre de esta carrera que está enfocada en el desarrollo de los sistemas de información en sus distintas etapas: análisis, diseño, construcción, implementación y mantenimiento para lograr su óptimo funcionamiento </p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h5>Otras Carreras Universitarias</h5>
+                    <h4> Soy Licenciado en Teologia</h4>
+                    <span class="casa">UNAC (Corporación Universitaria Adventista - Colombia)</span>
+                    <span class="fecha">Año De:2016 - Al:2021 </span>
+                    <p>Soy licenciado en teología programa académico que se enfoca en el estudio y la comprensión de cuestiones teológicas, filosóficas, históricas, literarias, así como el análisis exhaustivo de textos antiguos de las escrituras y otros textos contemporáneos; esta carrera me capacitó para: <br>
+                        -	<span>Ser profesor en filosofía</span>, ciencias sociales, ética o religión<br>
+                        -	Ser investigador: adquirí habilidades de investigación y metodología para llevar a cabo investigaciones teológicas, históricas, literarias y contribuir al desarrollo del conocimiento<br>
+                        -	Manejar y liderar grupos: manejar herramientas homiléticas, pedagógicas y didácticas para el manejo de publico o de grupos
+                         </p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Tecnico Superior Agropecuario </h4>
+                    <span class="casa">UITET</span>
+                    <span class="fecha">Año De:2012 - Al:2015 </span>
+                   <p> gestionar eficientemente las actividades relacionadas con la producción de alimentos y productos agrícolas y ganaderos.</p>
+                    <p>La formación incluye el uso de tecnología moderna en la agricultura y la ganadería, como sistemas de riego, maquinaria agrícola avanzada, aplicaciones de software agrícola y métodos de producción más eficientes.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+            </div>
+                    <!-- experiencia -->
+            <div class="col derecha">
+                <h3>Experiencia de trabajo</h3>
+                <div class="item der">
+                    <h4> Poyecto De workflows </h4>
+                    <h5> Organizador de Tareas </h5>
+                    <span class="casa">Empresa ERM Workflow</span>
+                    <span class="fecha">Septiembre,2023 - Octubre,2023</span>
+                    <p> Desarrollamos una aplicacion para una empresa de ERM Perú<br>
+                        mi funciones principales fué FullStack completamente, sin embargo, me enfoqué más en el Back, mis logros principales como Backend fueron la creación de CRUD completos para la interfaz de empresa, creación de testimonios, el JWT y el login; en cuanto a mis logros como Frontend: diseñe algunas vistas para testimonios, ayude en la creacion del login, la vista de los desarrolladores con sus enlaces entre otros.<br>
+                        Aptitudes: Desarrollo front end · Tailwind CSS · Redux.js · React.js · Sequelize.js · Express.js · Node.js . entre otros
+                        </p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+               
+                <div class="item der">
+                    <h4> Poyecto De app Dogs</h4>
+                    <span class="casa">Soy Henry </span>
+                    <span class="fecha">2023</span>
+                    <p>Este proyecto es una app sobre Razas de perros donde tenemos muchas funcionalidades 🙂 en este proyecto pude aprender muchas cosas tanto como en parte del from-end o como por back-end, algunas de las funcionalides que tiene son :<br> 
+                        * Buscado por nombre de Raza <br>
+                        * Filtrado por Raza <br>
+                        *Filtrado por id <br>
+                        * Filtrado por altura <br>
+                        * filtrado por peso<br>
+                        *filtrado de orden alfabetico<br>
+                        *creacion de nueva Raza de Perro<br>
+                        *Eliminación de Raza de perro<br>
+                        *paginado <br>
+                        *Detalles de cada Raza de perro<br>
+                        * Modificacion de Raza<br>
+                        *Validaciones de formularios<br>
+                        
+                        </p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Otras Experiencias Profecionales</h4>
+                    <span class="casa"> </span>
+                    <p>
+                        -	Proyectos personales de programación con HTML y CSS (descripción en el porfolio)<br>
+                        -	Proyectos con REACT (proyectos sencillos para ganar experiencia)<br>
+                        -	Trabajo como profesor en el área de Carrera de teología <br>
+                        -	Trabajo como perito Agropecuario en el área de mi carrera agropecuaria<br>
+                        </p>
+
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECCION PORTFOLIO -->
+<section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+
+        <div class="galeria">
+            <div class="proyecto">
+                <div class="imagen-proyecto">
+                    <img src="./img/Workflow.jpg" alt="">
+                </div>
+                <div class="info-proyecto">
+                    <h3>Proyecto ERM Workflow <br> proyecto reciente</h3>
+                    <p>Enlaces</p>
+                    <a class="enlace" href="https://youtube.com/watch?v=_1N5Cc__mgg&feature=shared" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path d="M7.69 5.042l2.927 1.645-2.927 1.645V5.042zm3.38 2.384c-.123-.686-.487-1.278-1.072-1.385a8.99 8.99 0 0 0-1.997-.107 8.99 8.99 0 0 0-1.997.107c-.585.107-.949.699-1.072 1.385a17.7 17.7 0 0 0-.119 1.73 17.7 17.7 0 0 0 .119 1.73c.123.686.487 1.278 1.072 1.385a8.99 8.99 0 0 0 1.997.107 8.99 8.99 0 0 0 1.997-.107c.585-.107.949-.699 1.072-1.385a17.7 17.7 0 0 0 .119-1.73 17.7 17.7 0 0 0-.119-1.73zm-.06 3.998c-.048.397-.173.763-.358 1.096a4.95 4.95 0 0 1-.67 1.106 4.632 4.632 0 0 1-1.385.921 4.185 4.185 0 0 1-1.874.406c-.64 0-1.235-.133-1.877-.406a4.632 4.632 0 0 1-1.385-.921 4.95 4.95 0 0 1-.67-1.106c-.185-.333-.31-.7-.358-1.096a7.85 7.85 0 0 1-.072-.875 7.85 7.85 0 0 1 .072-.875zm-5.708.478c-.093-.25-.093-.875-.093-1.385V7.42c0-.51 0-1.135.093-1.385.093-.25.318-.427.625-.475.548-.093 2.662-.093 3.354-.093s2.806 0 3.354.093c.307.048.532.225.625.475.093.25.093.875.093 1.385v1.725c0 .51 0 1.135-.093 1.385-.093.25-.318.427-.625.475-.548.093-2.662.093-3.354.093s-2.806 0-3.354-.093c-.307-.048-.532-.225-.625-.475zm-.144-1.49c-.084 0-.146 0-.178.006-.031.008-.148.061-.292.158v-.704c0-.086.077-.157.178-.18 1.177-.115 2.354-.115 3.536-.115s2.36 0 3.536.115c.1.023.178.094.178.18v.704c-.144-.097-.26-.15-.292-.158-.031-.008-.094-.008-.178-.008-.084 0-.147 0-.18.008-.032.008-.144.064-.256.158v-3.64c.112.094.224.15.256.158.031.008.094.008.178.008.084 0 .147 0 .178-.008.032-.008.148-.064.292-.158v3.6c0 .086-.077.157-.178.18-1.177.115-2.354.115-3.536.115s-2.36 0-3.536-.115c-.1-.023-.178-.094-.178-.18v-3.6c.144.097.26.15.292.158.031.008.094.008.178.008 .084 0 .147 0 .178-.008 .032-.008.144-.064.292-.158v3.64c-.112-.094-.224-.15-.256-.158-.032-.008-.094-.008-.178-.008zm5.853 0c-.084 0-.146 0-.178.006-.031.008-.148.061-.292.158v-.704c0-.086.077-.157.178-.18 1.177-.115 2.354-.115 3.536-.115s2.36 0 3.536.115c.1.023.178.094.178.18v.704c-.144-.097-.26-.15-.292-.158-.031-.008-.094-.008-.178-.008-.084 0-.147 0-.178.008-.032.008-.144.064-.256.158v-3.64c.112.094.224.15.256.158.031.008.094.008.178.008 .084 0 .147 0 .178-.008 .032-.008.148-.064.292-.158v3.6c0 .086-.077.157-.178.18-1.177.115-2.354-.093-3.536-.093s-2.36.208-3.536.093c-.1-.023-.178-.094-.178-.18v-3.6c.144.097.26.15.292.158.031.008 .094.008 .178.008z"/>
+                        </svg>
+                        Video del proyecto
+                    </a>
+                    <a class="enlace" href="https://workflow-pf.vercel.app/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+                            <path d="M5.354 1.646a.5.5 0 01.293.293l2 2a.5.5 0 01-.293.293a.5.5 0 01-.293-.293l-2-2a.5.5 0 01.293-.293zM4.5 2a.5.5 0 000 1h5a.5.5 0 000-1h-5a.5.5 0 000 1z"/>
+                            <path d="M4.646 5.354a.5.5 0 01-.293-.293l2-2a.5.5 0 01.293-.293a.5.5 0 01.293.293l-2 2a.5.5 0 01-.293.293zM5 6a.5.5 0 000 1h5a.5.5 0 000-1H5z"/>
+                            <path d="M5.354 10.646a.5.5 0 01.293-.293a.5.5 0 01.293.293l-2 2a.5.5 0 01-.293.293a.5.5 0 01-.293-.293l2-2a.5.5 0 01.293-.293zM5 11a.5.5 0 000 1h5a.5.5 0 000-1H5z"/>
+                            <path d="M7.354 5.646a.5.5 0 01.708 0l4 4a.5.5 0 01-.708.708l-4-4a.5.5 0 010-.708z"/>
+                        </svg>
+                        ver Página Web
+                    </a>
+                </div>
+            </div>
+         
+            <div class="proyecto">
+                <div class="imagen-proyecto">
+                    <img src="./img/Dogs.jpg" alt="">
+                </div>
+                <div class="info-proyecto">
+                    <h3>Proyecto Dogs</h3>
+                    <p>Enlaces</p>
+                    <a class="enlace" href="https://github.com/Chris-tAt/p_inic_henry" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.83-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2.00.27 1.53-1.04 2.20-.82 2.20-.82.44 1.10 0.16 1.92 0.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.20 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                       ver Repositorio
+                    </a>
+                   
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="imagen-proyecto">
+                    <img src="./img/salud.jpg" alt="">
+                </div>
+                <div class="info-proyecto">
+                    <h3>Salud Total (React)<br> - mis primeros proyectos</h3>
+                    <p>Enlaces</p>
+                    <a class="enlace" href="https://github.com/Chris-tAt/SaludTotal" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.83-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2.00.27 1.53-1.04 2.20-.82 2.20-.82.44 1.10 0.16 1.92 0.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.20 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                    ver Repositorio
+                    </a>
+                    <a class="enlace" href="http://chris-tat.github.io/SaludTotal/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+                            <path d="M5.354 1.646a.5.5 0 01.293.293l2 2a.5.5 0 01-.293.293a.5.5 0 01-.293-.293l-2-2a.5.5 0 01.293-.293zM4.5 2a.5.5 0 000 1h5a.5.5 0 000-1h-5a.5.5 0 000 1z"/>
+                            <path d="M4.646 5.354a.5.5 0 01-.293-.293l2-2a.5.5 0 01.293-.293a.5.5 0 01.293.293l-2 2a.5.5 0 01-.293.293zM5 6a.5.5 0 000 1h5a.5.5 0 000-1H5z"/>
+                            <path d="M5.354 10.646a.5.5 0 01.293-.293a.5.5 0 01.293.293l-2 2a.5.5 0 01-.293.293a.5.5 0 01-.293-.293l2-2a.5.5 0 01.293-.293zM5 11a.5.5 0 000 1h5a.5.5 0 000-1H5z"/>
+                            <path d="M7.354 5.646a.5.5 0 01.708 0l4 4a.5.5 0 01-.708.708l-4-4a.5.5 0 010-.708z"/>
+                        </svg>
+                        ver página
+                    </a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="imagen">
+                    <img src="./img/Netflix.jpg" alt="">
+                </div>
+                <div class="info-proyecto">
+                    <h3>Perfiles de Netflix (aprendiendo CSS)<br> - mis primeros proyectos</h3>
+                    <p>Enlaces</p>
+                    <a class="enlace" href="https://github.com/Chris-tAt/Mi-primer-proyecto" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.83-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2.00-.27.68 0 1.36.09 2.00.27 1.53-1.04 2.20-.82 2.20-.82.44 1.10 0.16 1.92 0.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.20 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                        ver Repositorio
+                    </a>
+                    <a class="enlace" href="https://chris-tat.github.io/Mi-primer-proyecto/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+                            <path d="M5.354 1.646a.5.5 0 01.293.293l2 2a.5.5 0 01-.293.293a.5.5 0 01-.293-.293l-2-2a.5.5 0 01.293-.293zM4.5 2a.5.5 0 000 1h5a.5.5 0 000-1h-5a.5.5 0 000 1z"/>
+                            <path d="M4.646 5.354a.5.5 0 01-.293-.293l2-2a.5.5 0 01.293-.293a.5.5 0 01.293.293l-2 2a.5.5 0 01-.293.293zM5 6a.5.5 0 000 1h5a.5.5 0 000-1H5z"/>
+                            <path d="M5.354 10.646a.5.5 0 01.293-.293a.5.5 0 01.293.293l-2 2a.5.5 0 01-.293.293a.5.5 0 01-.293-.293l2-2a.5.5 0 01.293-.293zM5 11a.5.5 0 000 1h5a.5.5 0 000-1H5z"/>
+                            <path d="M7.354 5.646a.5.5 0 01.708 0l4 4a.5.5 0 01-.708.708l-4-4a.5.5 0 010-.708z"/>
+                        </svg>
+                        ver Página
+                    </a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="imagen-proyecto">
+                    <img src="./img/Cards.jpg" alt="">
+                </div>
+                <div class="info-proyecto">
+                    <h3>Cards (sin librerias de estilos,solo React)<br> - mis primeros proyectos</h3>
+                    <p>Enlaces</p>
+                    <a class="enlace" href="https://github.com/Chris-tAt/Cards-diferentes" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.83-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2.00.27 1.53-1.04 2.20-.82 2.20-.82.44 1.10 0.16 1.92 0.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.20 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                        ver Repositorio
+                    </a>
+                    <a class="enlace" href="https://chris-tat.github.io/Cards-diferentes/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+                            <path d="M5.354 1.646a.5.5 0 01.293.293l2 2a.5.5 0 01-.293.293a.5.5 0 01-.293-.293l-2-2a.5.5 0 01.293-.293zM4.5 2a.5.5 0 000 1h5a.5.5 0 000-1h-5a.5.5 0 000 1z"/>
+                            <path d="M4.646 5.354a.5.5 0 01-.293-.293l2-2a.5.5 0 01.293-.293a.5.5 0 01.293.293l-2 2a.5.5 0 01-.293.293zM5 6a.5.5 0 000 1h5a.5.5 0 000-1H5z"/>
+                            <path d="M5.354 10.646a.5.5 0 01.293-.293a.5.5 0 01.293.293l-2 2a.5.5 0 01-.293.293a.5.5 0 01-.293-.293l2-2a.5.5 0 01.293-.293zM5 11a.5.5 0 000 1h5a.5.5 0 000-1H5z"/>
+                            <path d="M7.354 5.646a.5.5 0 01.708 0l4 4a.5.5 0 01-.708.708l-4-4a.5.5 0 010-.708z"/>
+                        </svg>
+                        ver Página
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="./img/ladig.jpg" alt="">
+                <div class="overlay">
+                    <h3>App DRIVERS</h3>
+                    <p>Fotografía</p>
+                </div>
+            </div>
+         
+            <div class="proyecto">
+                <img src="./img/Captura.PNG" alt="">
+                <div class="overlay">
+                    <h3>ERM (Enterprise Resource Management)</h3>
+                    <p>Fotografía</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="./img/lentes.PNG" alt="">
+                <div class="overlay">
+                    <h3>Ecomerce De Lentes</h3>
+                    <p>Fotografía</p>
+                </div>
+            </div>
+           
+            <div class="proyecto">
+                <img src="./img/Rick.PNG" alt="">
+                <div class="overlay">
+                    <h3>App de RicK and Morty</h3>
+                    <p>Fotografía</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>Para contactarme dale click a alguno de los iconos:</h2>
+
+        <div class="fila">
+            <div class="col">
+                <a href="https://github.com/Chris-tAt" target="_blank">
+                    <img src="./img/git.png" alt="GitHub">
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.linkedin.com/in/christian-mu%C3%B1oz-493218275" target="_blank">
+                    <img src="./img/linkedin.png" alt="LinkedIn">
+                </a>
+            </div>
+            <div class="col">
+                <a href="mailto:christati1205@gmail.com">
+                    <img src="./img/gmail.png" alt="Correo">
+                </a>
+            </div>
+            <div class="col">
+                <a href="#" id="copiarTelefono">
+                    <img src="./img/whatsapp.png" alt="Teléfono" id="telefonoImagen">
+                </a>
+                <span id="numeroTelefono" style="display: none;">+50769160682</span>
+            </div>
+           
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+  
+</footer>
+</body>
+</html>
